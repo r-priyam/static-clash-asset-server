@@ -2,7 +2,7 @@
   "name": "static-clash-asset-server",
   "version": "1.0.0",
   "description": "API to serve static Clash of Clans assets",
-  "main": "index.mjs",
+  "main": "api/index.mjs",
   "type": "module",
   "scripts": {
     "start": "node ."

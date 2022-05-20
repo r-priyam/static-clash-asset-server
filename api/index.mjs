@@ -6,7 +6,7 @@ import fastifyStatic from '@fastify/static';
 const fastify = Fastify({ logger: false })
 
 fastify.register(fastifyStatic, {
-    root: fileURLToPath(new URL('public', import.meta.url)),
+    root: fileURLToPath(new URL('../public', import.meta.url)),
     prefix: '/static/',
 })
 
